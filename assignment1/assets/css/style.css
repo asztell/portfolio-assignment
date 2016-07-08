@@ -244,3 +244,36 @@ footer, .push {
 .push {
 	margin-bottom: 60px;
 }
+
+@media screen and (max-width: 980px) {
+	#nav_main {
+		width: 860px;
+	}
+	main {
+		width: 860px;
+	}
+	#left_main {						
+		width: 582px;
+	}
+	#portfolio_pix {
+		width: 584px;
+	}
+	#portfolio_pix > a > img {
+		width: 273px;
+	}
+	#portfolio_pix > a > h3 {
+		width: 273px;
+	}
+	#portfolio_pix > a:nth-child(2n-1) > h3:nth-child(2) {
+		margin-left: 0px;
+		width: 273px;
+	}
+	input[type="text"], textarea {
+		width: 567px;
+	}
+	#right_main {
+		float: right;
+		width: 162px;
+	}
+	
+}
