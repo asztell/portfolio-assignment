@@ -265,13 +265,14 @@ footer, .push {
 	}
 	#portfolio_pix > a > h3 {
 		width: 333px;
+		margin-left: 0;
 	}
 	#portfolio_pix > a:nth-child(2n-1) > h3:nth-child(2) {
 		margin-left: 0px;
 		width: 333px;
 	}
 	input[type="text"], textarea {
-		width: 567px;
+		width: 317px;
 	}
 	#right_main {
 		float: right;
