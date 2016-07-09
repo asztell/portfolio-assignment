@@ -282,9 +282,7 @@ footer, .push {
 }
 
 @media screen and (max-width: 768px) {
-	nav {
-		width: 572px;
-	}
+	nav {}
 	#nav_main {
 		width: 572px;
 	}
