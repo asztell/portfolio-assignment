@@ -27,7 +27,8 @@ h2 {
 nav {
 	border-bottom: solid #d0d0e1 2px;
 	background-color: white;
-	padding: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 #nav_main {
@@ -282,7 +283,46 @@ footer, .push {
 }
 
 @media screen and (max-width: 768px) {
-	nav {}
+	#nav_main {
+		width: 572px;
+	}
+	main {
+		width: 572px;
+	}
+	#left_main {						
+		width: 530px;
+	}
+	#portfolio_pix {
+		width: 532px;
+	}
+	#portfolio_pix > a > img {
+		width: 256px;
+		height: 189.2px;
+		margin-left: 15px;
+	}
+	#portfolio_pix > a > h3 {
+		width: 256px;
+		margin-left: 275px;
+	}
+	#portfolio_pix > a:nth-child(2n-1) > h3:nth-child(2) {
+		margin-left: 0px;
+		width: 256px;
+	}
+	#portfolio_pix > a:nth-child(2n-1) > img:nth-child(2) {
+		margin-left: 0px;
+	}
+	input[type="text"], textarea {
+		width: 515px;
+	}
+	#right_main {
+		float: left;
+		width: 530px;
+		margin: 30px auto;
+	}
+	
+}
+
+@media screen and (max-width: 640px) {
 	#nav_main {
 		width: 572px;
 	}
