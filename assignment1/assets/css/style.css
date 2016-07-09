@@ -290,14 +290,14 @@ footer, .push {
 		width: 572px;
 	}
 	#left_main {						
-		width: 572px;
+		width: 530px;
 	}
 	#portfolio_pix {
-		width: 572px;
+		width: 532px;
 	}
 	#portfolio_pix > a > img {
-		width: 273px;
-		height: 204.2px;
+		width: 256px;
+		height: 189.2px;
 		margin-left: 0;
 	}
 	#portfolio_pix > a > h3 {
@@ -307,6 +307,9 @@ footer, .push {
 	#portfolio_pix > a:nth-child(2n-1) > h3:nth-child(2) {
 		margin-left: 0px;
 		width: 273px;
+	}
+	#portfolio_pix > a:nth-child(2n) > img:nth-child(2) {
+		margin-left: 15px;
 	}
 	input[type="text"], textarea {
 		width: 567px;
