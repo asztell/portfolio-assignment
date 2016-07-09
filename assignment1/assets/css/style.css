@@ -308,7 +308,7 @@ footer, .push {
 		margin-left: 0px;
 		width: 273px;
 	}
-	#portfolio_pix > a:nth-child(2n) > img:nth-child(2) {
+	#portfolio_pix > a:nth-child(2n-1) > img:nth-child(2) {
 		margin-left: 15px;
 	}
 	input[type="text"], textarea {
