@@ -283,20 +283,20 @@ footer, .push {
 
 @media screen and (max-width: 768px) {
 	#nav_main {
-		width: 610px;
+		width: 572px;
 	}
 	main {
-		width: 610px;
+		width: 572px;
 	}
 	#left_main {						
-		width: 332px;
+		width: 572px;
 	}
 	#portfolio_pix {
-		width: 334px;
+		width: 572px;
 	}
 	#portfolio_pix > a > img {
-		width: 333px;
-		height: 248px;
+		width: 273px;
+		height: 204.2px;
 		margin-left: 0;
 	}
 	#portfolio_pix > a > h3 {
