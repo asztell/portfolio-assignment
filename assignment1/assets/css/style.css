@@ -247,16 +247,16 @@ footer, .push {
 
 @media screen and (max-width: 980px) {
 	#nav_main {
-		width: 860px;
+		width: 610px;
 	}
 	main {
-		width: 860px;
+		width: 610px;
 	}
 	#left_main {						
-		width: 582px;
+		width: 332px;
 	}
 	#portfolio_pix {
-		width: 584px;
+		width: 334px;
 	}
 	#portfolio_pix > a > img {
 		width: 273px;
