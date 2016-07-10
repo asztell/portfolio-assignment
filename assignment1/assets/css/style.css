@@ -396,8 +396,9 @@ footer, .push {
 	#portfolio_pix > a > h3 {
 		width: 363px;
 		margin: auto;
-		margin-bottom: 60px;
+		/*margin-bottom: 60px;*/
 		float: none;
+		position: relative;
 	}
 	#portfolio_pix > a:nth-child(2n-1) > h3:nth-child(2) {
 		margin: auto;

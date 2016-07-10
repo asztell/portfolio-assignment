@@ -1,0 +1,10 @@
+.caption {
+	margin-bottom: 30px;
+	background-color: #000;
+	opacity: .6;
+	width: 337px;
+}
+.caption h3 {
+	opacity: 1;
+	color: white;	
+}
