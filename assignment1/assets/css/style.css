@@ -354,6 +354,9 @@ footer, .push {
 		text-align: center;
 		border-left: solid #ddd 1px;
 	}
+	#navbar > li:nth-child(2) {
+		width: 32%;
+	}
 	#a_border {
 		border-left: none;
 	}
@@ -361,11 +364,13 @@ footer, .push {
 		width: 100%;
 	}
 	#left_main {						
-		width: 100%;
+		width: 80%;
 		float: none;
 		margin: 0 auto;
-		padding: 0;
+		padding: 20px;
 		padding-top: 25px;
+		overflow: auto;
+		padding-bottom: 20px;
 	}
 	#left_main > header > h2{
 		/*padding: 25px;*/
@@ -375,6 +380,15 @@ footer, .push {
 		margin: 0;
 		/*padding-left: 20px;*/
 		text-align: center;
+	}
+	#left_main > p {
+	}
+	#left_main > form > input, 
+	#left_main > form > textarea {
+		width: 95%;
+	}
+	#submit_button {
+		width: 105%;
 	}
 	#portfolio_pix {
 		width: 100%;
@@ -415,9 +429,9 @@ footer, .push {
 		width: 515px;
 	}
 	#right_main {
-		float: left;
-		width: 530px;
-		margin: 30px auto;
+		float: none;
+		width: 80%;
+		margin: 20px auto;
 	}
 	
 }
