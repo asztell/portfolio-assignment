@@ -367,7 +367,7 @@ footer, .push {
 		width: 80%;
 		float: none;
 		margin: 0 auto;
-		padding: 20px;
+		padding: 3%;
 		padding-top: 25px;
 		overflow: auto;
 		padding-bottom: 20px;
@@ -386,9 +386,12 @@ footer, .push {
 	#left_main > form > input, 
 	#left_main > form > textarea {
 		width: 95%;
+		margin: auto;
+		margin-top: 10px;
 	}
 	#submit_button {
-		width: 105%;
+		float: none;
+		margin: auto;
 	}
 	#portfolio_pix {
 		width: 100%;
